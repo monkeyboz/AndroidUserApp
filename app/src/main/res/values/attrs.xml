@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="ListItem">
+        <attr name="itemTitle" format="string"/>
+        <attr name="image_url" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="PieChart">
+        <attr name="showText" format="boolean" />
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
